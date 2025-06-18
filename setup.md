@@ -15,8 +15,7 @@ wireshark-traffic-analysis/
 ├── analysis.md  
 └── screenshots/
 
-📸 Screenshot:  
-`01_project_folder_structure.png`
+[Project folder structure](screenshots/01_project_folder_structure.png)
 
 ---
 
@@ -30,8 +29,7 @@ wireshark-traffic-analysis/
   - Kali: `ip a`
   - Windows: `ipconfig`
 
-📸 Screenshot:  
-`02_virtualbox_vms_network_setup.png`
+[VirtualBox vms network setup](screenshots/02_virtualbox_vms_network_setup.png)
 
 ---
 
@@ -41,8 +39,7 @@ wireshark-traffic-analysis/
 - Selected the correct Host-Only Ethernet Adapter
 - Started live packet capture
 
-📸 Screenshot:  
-`03_wireshark_capture_started.png`
+[Wireshark capture started](screenshots/03_wireshark_capture_started.png)
 
 ---
 
@@ -55,8 +52,7 @@ nmap -sS -A 192.168.56.102
 - `-sS` = Stealth SYN scan  
 - `-A` = OS detection, version detection, script scan, traceroute
 
-📸 Screenshot:  
-`04_kali_nmap_scan_running.png`
+[Kali nmap scan running](screenshots/04_kali_nmap_scan_running.png)
 
 ---
 
@@ -71,8 +67,7 @@ tcp.flags.syn == 1 && tcp.flags.ack == 0
 - Observed SYN packets from the Kali IP to Windows IP
 - Verified attacker activity
 
-📸 Screenshot:  
-`05_wireshark_detects_nmap_scan.png`
+[Wireshark detects nmap scan](screenshots/05_wireshark_detects_nmap_scan.png)
 
 ---
 
